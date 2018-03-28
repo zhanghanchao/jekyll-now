@@ -1,6 +1,6 @@
 ---
 layout: post
-title: You're up and running!
+title: 封装getElementsByClassName!
 ---
 ### 由于getElementsByClassName在IE上支持不好，所以我们需要封装一个函数来解决。
 
