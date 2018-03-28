@@ -2,7 +2,7 @@
 layout: post
 title: CSS三种基本的布局模型
 ---
-# CSS包含3种基本的布局模型，用英文概括为：Flow、Layer 和 Float。
+## CSS包含3种基本的布局模型，用英文概括为：Flow、Layer 和 Float。
 
 ## 在网页中，元素有三种布局模型：
 
