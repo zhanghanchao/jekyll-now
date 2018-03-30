@@ -4,8 +4,9 @@ title: About
 permalink: /about/
 ---
 
-努力成为一个好的测试开发工程师
+嗯，好好学习
 
 ### Contact me
 
-[542505528@qq.com](mailto:email@domain.com)
+电话：15021988435
+邮箱：[542505528@qq.com](mailto:email@domain.com)
