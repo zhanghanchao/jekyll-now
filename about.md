@@ -8,5 +8,5 @@ permalink: /about/
 
 ### Contact me
 
-电话：15021988435
-邮箱：[542505528@qq.com](mailto:email@domain.com)
+* 电话：15021988435
+* 邮箱：[542505528@qq.com](mailto:email@domain.com)
