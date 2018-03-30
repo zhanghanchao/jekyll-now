@@ -11,7 +11,7 @@ error: RPC failed; curl 56 LibreSSL SSL_read: SSL_ERROR_SYSCALL, errno 54
 fatal: The remote end hung up unexpectedly
 fatal: early EOF
 fatal: index-pack failed
-```html
+```
 
 ###  解决办法：
 
