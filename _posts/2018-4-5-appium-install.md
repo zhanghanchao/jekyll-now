@@ -5,8 +5,8 @@
 * 下载地址：http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
 * windows10环境变量配置
-1. JAVA_HOME：C:\Program Files\Java\jdk1.8.0_161</br>
-2. path: %JAVA_HOME%\bin</br>
+1. JAVA_HOME：C:\Program Files\Java\jdk1.8.0_161
+2. path: %JAVA_HOME%\bin
 3. 在命令行运行javac,java显示正常就算成功
 
 ## 二，安卓sdk.
@@ -14,19 +14,19 @@
 * 下载地址：https://android-sdk.en.softonic.com/
 * 下载完成后解压文件，配置sdk环境变量
 1. ANDROID_HOME：C:\installexe\android-sdk_r24.4.1-windows\android-sdk-windows
-2. path: %ANDROID_HOME%\platform-tools </br> %ANDROID_HOME%\tools </br> %ANDROID_HOME%\build-tools\27.0.3
+2. a. path: %ANDROID_HOME%\platform-tools  b. %ANDROID_HOME%\tools  c. %ANDROID_HOME%\build-tools\27.0.3
 3. 在命令行运行adb和aapt检测环境配置是否成功
-* 运行SDKmanager.exe配置。</br>
+* 运行SDKmanager.exe配置。
 
 ![_config.yml]({{ site.baseurl }}/images/sdkmanager.png)
 
 * 运行AVD manager.exe
 1. 点击create
-2. 设置模拟器参数 </br>
+2. 设置模拟器参数 
 
 ![_config.yml]({{ site.baseurl }}/images/avdmanager1.png)
 
-3. 启动模拟器 </br>
+3. 启动模拟器 
 
 ![_config.yml]({{ site.baseurl }}/images/avdmanager2.png)
 
