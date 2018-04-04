@@ -21,9 +21,9 @@
 * 运行AVD manager.exe
 1. 点击create
 2. 设置模拟器参数</br>
-![_config.yml]({{ site.baseurl }}/images/avdmanager1.png)
+![_config.yml]({{ site.baseurl }}/images/AVDmanager1.png)
 3. 启动模拟器</br>
-![_config.yml]({{ site.baseurl }}/images/avdmanager2.png)
+![_config.yml]({{ site.baseurl }}/images/AVDmanager2.png)
 
 ## nodejs安装
 1. 下载地址：https://nodejs.org/en/download/current/
