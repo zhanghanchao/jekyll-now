@@ -20,8 +20,10 @@
 ![_config.yml]({{ site.baseurl }}/images/sdkmanager.png)
 * 运行AVD manager.exe
 1. 点击create
-2. 设置模拟器参数 </br>
+2. 设置模拟器参数 </br>                                 
+<p>
 ![_config.yml]({{ site.baseurl }}/images/avdmanager1.png)
+</p>
 3. 启动模拟器 </br>
 ![_config.yml]({{ site.baseurl }}/images/avdmanager2.png)
 
