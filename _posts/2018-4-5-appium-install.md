@@ -16,14 +16,13 @@
 1. ANDROID_HOME：C:\installexe\android-sdk_r24.4.1-windows\android-sdk-windows
 2. path: %ANDROID_HOME%\platform-tools </br> %ANDROID_HOME%\tools </br> %ANDROID_HOME%\build-tools\27.0.3
 3. 在命令行运行adb和aapt检测环境配置是否成功
-* 运行SDKmanager.exe配置。
+* 运行SDKmanager.exe配置。</br>
 ![_config.yml]({{ site.baseurl }}/images/sdkmanager.png)
-
 * 运行AVD manager.exe
 1. 点击create
-2. 设置模拟器参数
+2. 设置模拟器参数</br>
 ![_config.yml]({{ site.baseurl }}/images/avdmanager1.png)
-3. 启动模拟器
+3. 启动模拟器</br>
 ![_config.yml]({{ site.baseurl }}/images/avdmanager2.png)
 
 ## nodejs安装
