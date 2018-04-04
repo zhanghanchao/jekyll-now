@@ -22,11 +22,11 @@
 
 * 运行AVD manager.exe
 1. 点击create
-2. 设置模拟器参数 
+2. 设置模拟器参数 。
 
 ![_config.yml]({{ site.baseurl }}/images/avdmanager1.png)
 
-3. 启动模拟器 
+3. 启动模拟器 。
 
 ![_config.yml]({{ site.baseurl }}/images/avdmanager2.png)
 
