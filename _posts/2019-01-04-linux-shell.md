@@ -6,30 +6,30 @@ title: shell学习笔记
 ## 数组
 ```bash
 定义数组 array=(1 2 3 4)
-打印数组 echo ${array[@]} =>1 2 3 4
-打印数组长度 echo ${#array[@]} =>4
+打印数组 echo ${array[@]} => 1 2 3 4
+打印数组长度 echo ${#array[@]} => 4
 ```
 
 ## 查看路径
 ```bash
-查看python 路径 which python => /usr/bin/python  需要配置环境变量
+查看python 路径 which python => /usr/bin/python  //需要配置环境变量
 ```
 ## 反引号``
 ```bash
 a=`ls`
-$a => 相当于执行ls 命令
-echo -e “a\nab”开启转义
+$a => 相当于执行ls命令
+echo -e “a\nab” //开启转义
 ```
 ## 变量操作：
 ```bash
 a=1;b=2
-echo $((a+b)) =>3
+echo $((a+b)) => 3
 ```
 ## 布尔判断
-判断上次执行是否正确echo $?  正确显示0 错误显示非0
+判断上次执行是否正确echo $?  //正确显示0 错误显示非0
 ## 浮点数计算
-* shell不支持浮点数计算  如echo $((2/3))
-* 可使用awk 'BEGIN{print 2/3}' =>0.66667 
+* shell不支持浮点数计算 ,如echo $((2/3))
+* 可使用awk 'BEGIN{print 2/3}' => 0.66667 
 ## 切片
 ```bash
 s="hello world"
@@ -53,17 +53,22 @@ echo "${s/hel/aaa}" => aaalo world
 ```
 ## 算术判断在中括号[]进行
 ```bash
-是否相等判断[ 2 -eq 2 ];echo $? =>0 空格不能少
-小于[ 2 -lt 3];echo $? =>0
-大于[2 -gt 1 -a 3 -ge 2];echo $? =>0  逻辑非-a
-大于[2 -gt 1 -o 3 -ge 2];echo $? =>0   逻辑或-o
-大于等于ge=great equal  小于等于le=low equal
+是否相等判断
+[ 2 -eq 2 ];echo $? =>0 //空格不能少
+小于
+[ 2 -lt 3];echo $? =>0
+大于
+[2 -gt 1 -a 3 -ge 2];echo $? =>0  //逻辑非-a
+大于
+[2 -gt 1 -o 3 -ge 2];echo $? =>0   //逻辑或-o
+大于等于
+ge=great equal  小于等于le=low equal
 ```
 ## shell内置
-* [ -e note.txt ] 判断文件是否存在
+* [ -e note.txt ] //判断文件是否存在
 ## if语句
 ```bash
-if [ -e test ];then echo exist;else echo not exist;fi;判断文件是否存在
+if [ -e test ];then echo exist;else echo not exist;fi; //判断文件是否存在
 简化写法：[ -e test ]&&echo exist||echo not exist
 echo "1" && echo "2" || echo "3" && echo "4" || echo "5" || echo "6" && echo "7" && echo "8" || echo "9"=>1,2,4,7,8
 ```
@@ -75,17 +80,17 @@ for ((i=1;i<${#array[@]};i++));do echo $i;done
 ## 遍历循环：
 ```bash
 for i in ${array[@];i++};do echo $i;done
-for x in `ls`;do echo $x;done输出ls结果
+for x in `ls`;do echo $x;done //输出ls结果
 ```
 ## while循环：
 ```bash
 i=1;[ $i -lt 3];do echo $i;((i=i+1));done
-while read x;echo $x;done < 3;打印文件3的内容
+while read x;echo $x;done < 3; //打印文件3的内容
 ```
 ## 重定向：
 ```bash
 echo "hello" > hello.txt 
-echo "hello" >> hello.txt追加一行，不覆盖
+echo "hello" >> hello.txt //追加一行，不覆盖
 ```
 * ()在sub_shell环境执行，{}在当前环境执行
 * ps -e 查看系统全部进程
@@ -98,7 +103,7 @@ echo "hello" >> hello.txt追加一行，不覆盖
 ## linux三大剑客之grep 文本搜索命令
 ```bash
 grep “hello” text.txt
-grep -i 忽略大小写
+grep -i //忽略大小写
 cat text.txt | grep “hello"
 while read k;do echo $k;curl -s http://www.baidu.com/s?wd=$k;done < baidu.keyword | grep -o "结果约[0-9,]*" 
 ```
