@@ -5,9 +5,9 @@ title: shell学习笔记
 
 ## 数组
 ```bash
-* 定义数组 array=(1 2 3 4)
-* 打印数组 echo ${array[@]} =>1 2 3 4
-* 打印数组长度 echo ${#array[@]} =>4
+定义数组 array=(1 2 3 4)
+打印数组 echo ${array[@]} =>1 2 3 4
+打印数组长度 echo ${#array[@]} =>4
 ```
 
 ## 查看路径
@@ -16,9 +16,10 @@ title: shell学习笔记
 ```
 ## 反引号``
 ```bash
-* a=`ls`
-* $a => 相当于执行ls 命令
-* echo -e “a\nab”开启转义
+a=`ls`
+$a => 相当于执行ls 命令
+echo -e “a\nab”开启转义
+```
 ## 变量操作：
 * a=1;b=2
 * echo $((a+b)) =>3
