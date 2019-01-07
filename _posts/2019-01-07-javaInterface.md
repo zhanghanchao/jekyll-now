@@ -3,7 +3,6 @@ layout: post
 title: java interface
 ---
 
-### java interface
 ## 直接看例子,Example 1
 ```java
 /*接口也是一种引用类型，可以等同做类。
