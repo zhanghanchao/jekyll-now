@@ -3,7 +3,7 @@ layout: post
 title: maven采坑
 ---
 
-## Intellij IDEA maven单元测试项目，需要借助allure生成测试报告，但是项目无surefire-reports目录，需要执行mvn test生成。
+## Intellij IDEA maven使用allure生成测试报告，但是target目录无surefire-reports目录，需要执行mvn test生成。
 1. file--settings--build/build/tools maven 可查看maven的bin目录地址
 2. 配置环境变量path,添加系统变量MAVEN_HOME.
 3. 在pom文件夹执行mvn test。<br/>
