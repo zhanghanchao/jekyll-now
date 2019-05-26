@@ -5,7 +5,8 @@
 3. 设置淘宝镜像
 * npm install -g cnpm --registry=https://registry.npm.taobao.org
 * cnpm install -g appium
-4. appium-doctor查看安装情况
+4. appium-doctor查看安装情况，有warn的手动再安装相关依赖
+5. 启动：appium -g /tmp/appium.log —relaxed-security
 
 ## window10
 
