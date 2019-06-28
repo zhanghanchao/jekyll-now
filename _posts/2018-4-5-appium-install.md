@@ -37,6 +37,9 @@
 ![_config.yml]({{ site.baseurl }}/images/avdmanager1.png)
 
 3. 启动模拟器 。
+1. /Users/arvin/Library/Android/sdk/emulator
+2. ./emulator --list-avds
+3. ./emulator @xxx
 
 ![_config.yml]({{ site.baseurl }}/images/avdmanager2.png)
 
