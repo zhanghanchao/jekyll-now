@@ -3,7 +3,7 @@ layout: post
 title: You're up and running!
 ---
 
-Next you can upda
+Next you can update
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
