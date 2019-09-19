@@ -3,7 +3,7 @@
 1. 安装brew:/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 2. 安装node:brew install -g node
 3. 设置淘宝镜像
-* npm install -g cnpm --registry=https://registry.npm.taobao.org
+* npm install -g cnpm ----registry=https://registry.npm.taobao.org
 * cnpm install -g appium
 4. appium-doctor查看安装情况，有warn的手动再安装相关依赖
 5. 启动：appium -g /tmp/appium.log —relaxed-security
