@@ -1,3 +1,3 @@
-### myblog:http://zhanghanchao.github.io
+### myblog:https://zhanghanchao.github.io
 
 The theme fork from https://github.com/barryclark/jekyll-now
